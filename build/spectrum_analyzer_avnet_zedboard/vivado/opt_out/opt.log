@@ -1,0 +1,310 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Feb 28 11:34:14 2025
+# Process ID: 72555
+# Current directory: /home/alisoukarieh/Documents/ProjetCodesign
+# Command line: vivado -mode batch -source script/vivado/opt_design.tcl -nojournal -notrace /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/dcp/synth.dcp -log /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/opt_out/opt.log -tclargs /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado xc7z020clg484-1 
+# Log file: /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/opt_out/opt.log
+# Journal file: 
+# Running On: 2a02-8440-b131-8ac0-27bd-72c1-17ee-1ed8.rev.sfr.net, OS: Linux, CPU Frequency: 400.000 MHz, CPU Physical cores: 16, Host memory: 16124 MB
+#-----------------------------------------------------------
+open_checkpoint /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/dcp/synth.dcp
+Command: open_checkpoint /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/dcp/synth.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1480.828 ; gain = 0.000 ; free physical = 5118 ; free virtual = 20091
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1827.492 ; gain = 0.000 ; free physical = 4721 ; free virtual = 19700
+INFO: [Netlist 29-17] Analyzing 279 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2529.602 ; gain = 2.969 ; free physical = 4129 ; free virtual = 19109
+Restored from archive | CPU: 0.130000 secs | Memory: 1.427177 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2529.602 ; gain = 2.969 ; free physical = 4129 ; free virtual = 19109
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2529.602 ; gain = 0.000 ; free physical = 4129 ; free virtual = 19109
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 177 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 163 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 12 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
+OpenCheckpoint Checksum | Checksum: a80ec109
+----- Checksum: PlaceDB: 401615bb ShapeSum: 67f8ab4e RouteDB: 00000000 
+open_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2529.602 ; gain = 1048.773 ; free physical = 4129 ; free virtual = 19109
+source script/vivado/opt_design.tcl -notrace
+Parsing XDC File [/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/build/pre-opt-pinout.xdc]
+Finished Parsing XDC File [/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/build/pre-opt-pinout.xdc]
+Command: opt_design -directive {}
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.87 ; elapsed = 00:00:00.41 . Memory (MB): peak = 2636.227 ; gain = 102.656 ; free physical = 4116 ; free virtual = 19096
+
+Starting Cache Timing Information Task
+Ending Cache Timing Information Task | Checksum: 19b1655a9
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2636.227 ; gain = 0.000 ; free physical = 4116 ; free virtual = 19096
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/sig_last_mmap_dbeat_reg_i_1__0 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_WR_DATA_CNTL/sig_next_calc_error_reg_i_3, which resulted in an inversion of 5 pins
+INFO: [Opt 31-138] Pushed 21 inverter(s) to 101 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 164639b31
+
+Time (s): cpu = 00:00:00.61 ; elapsed = 00:00:00.34 . Memory (MB): peak = 2870.176 ; gain = 24.012 ; free physical = 3898 ; free virtual = 18878
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 90 cells
+INFO: [Opt 31-1021] In phase Retarget, 45 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 10d9e1974
+
+Time (s): cpu = 00:00:00.66 ; elapsed = 00:00:00.39 . Memory (MB): peak = 2870.176 ; gain = 24.012 ; free physical = 3898 ; free virtual = 18877
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 60 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 185562ae0
+
+Time (s): cpu = 00:00:00.96 ; elapsed = 00:00:00.69 . Memory (MB): peak = 2870.176 ; gain = 24.012 ; free physical = 3897 ; free virtual = 18876
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 98 cells
+INFO: [Opt 31-1021] In phase Sweep, 76 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 185562ae0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.79 . Memory (MB): peak = 2902.191 ; gain = 56.027 ; free physical = 3896 ; free virtual = 18876
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 185562ae0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.8 . Memory (MB): peak = 2902.191 ; gain = 56.027 ; free physical = 3896 ; free virtual = 18876
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 185562ae0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.84 . Memory (MB): peak = 2902.191 ; gain = 56.027 ; free physical = 3896 ; free virtual = 18876
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 45 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |              90  |                                             45  |
+|  Constant propagation         |               0  |               0  |                                             60  |
+|  Sweep                        |               0  |              98  |                                             76  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             45  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2902.191 ; gain = 0.000 ; free physical = 3896 ; free virtual = 18876
+Ending Logic Optimization Task | Checksum: 15e26a2b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.94 . Memory (MB): peak = 2902.191 ; gain = 56.027 ; free physical = 3896 ; free virtual = 18876
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 4 newly gated: 0 Total Ports: 4
+Ending PowerOpt Patch Enables Task | Checksum: f5741692
+
+Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3151.121 ; gain = 0.000 ; free physical = 3893 ; free virtual = 18875
+Ending Power Optimization Task | Checksum: f5741692
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3151.121 ; gain = 248.930 ; free physical = 3909 ; free virtual = 18890
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: f5741692
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3151.121 ; gain = 0.000 ; free physical = 3909 ; free virtual = 18890
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3151.121 ; gain = 0.000 ; free physical = 3909 ; free virtual = 18890
+Ending Netlist Obfuscation Task | Checksum: e42326de
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3151.121 ; gain = 0.000 ; free physical = 3909 ; free virtual = 18890
+INFO: [Common 17-83] Releasing license: Implementation
+26 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+Command: power_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Begin power optimizations | Checksum: e42326de
+INFO: [Pwropt 34-50] Optimizing power for module spectrum_analyzer_top ...
+INFO: [Pwropt 34-207] Design is in partially-placed state. Running in partially-placed mode.
+PSMgr Creation: Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.13 . Memory (MB): peak = 3151.121 ; gain = 0.000 ; free physical = 3817 ; free virtual = 18799
+Running Vector-less Activity Propagation...
+Found 280 new always-off flops by back propagation
+Pre-processing: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.44 . Memory (MB): peak = 3158.176 ; gain = 7.055 ; free physical = 3743 ; free virtual = 18724
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+
+Finished Running Vector-less Activity Propagation
+IDT: Time (s): cpu = 00:00:04 ; elapsed = 00:00:00.95 . Memory (MB): peak = 3267.207 ; gain = 109.031 ; free physical = 3704 ; free virtual = 18685
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Pwropt 34-215] Skipped ODC enables for 0 nets in BRAM flops in bus-based analysis.
+INFO: [Pwropt 34-214] Skipped ODC enables for 0 nets in BRAM address flops in bus-based analysis.
+ODC: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3689 ; free virtual = 18671
+Power optimization passes: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 3267.207 ; gain = 116.086 ; free physical = 3689 ; free virtual = 18671
+
+INFO: [Pwropt 34-77] Creating clock enable groups ...
+INFO: [Pwropt 34-96] Including small groups for filtering based on enable probabilities.
+ Done
+Grouping enables: Time (s): cpu = 00:00:00.76 ; elapsed = 00:00:02 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3893 ; free virtual = 18867
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-26] Patching clock gating enable signals for design spectrum_analyzer_top ...
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+INFO: [Pwropt 34-100] Patcher adaptive clustering : original ram clusters 8 accepted clusters 8
+INFO: [Pwropt 34-100] Patcher adaptive clustering : original flop clusters 722 accepted clusters 722
+
+Number of Slice Registers augmented: 363 newly gated: 314 Total: 8117
+Number of SRLs augmented: 0  newly gated: 0 Total: 277
+Number of BRAM Ports augmented: 6 newly gated: 2 Total Ports: 4
+Number of Flops added for Enable Generation: 0
+
+Flops dropped: 178/1263 RAMS dropped: 0/8 Clusters dropped: 53/730 Enables dropped: 48
+Patching clock gating enables finished successfully.
+Ending PowerOpt Patch Enables Task | Checksum: 1660e2481
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3743 ; free virtual = 18726
+INFO: [Pwropt 34-30] Power optimization finished successfully.
+End power optimizations | Checksum: 1660e2481
+Power optimization: Time (s): cpu = 00:00:25 ; elapsed = 00:00:11 . Memory (MB): peak = 3267.207 ; gain = 116.086 ; free physical = 3819 ; free virtual = 18801
+INFO: [Pwropt 34-198] Malloced memory gain at end of power optimization: 61713416 bytes
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_11 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_10, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_7 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_6, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_9 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_8, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_37 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_36, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_39 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_38, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_44 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_43, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_49 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_48, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_17 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_16, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_19 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_18, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_23 into driver instance bd_inst/design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_ENARDEN_cooolgate_en_gate_22, which resulted in an inversion of 1 pins
+INFO: [Opt 31-138] Pushed 16 inverter(s) to 49 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 17e42d95d
+
+Time (s): cpu = 00:00:00.81 ; elapsed = 00:00:00.49 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3897 ; free virtual = 18879
+INFO: [Opt 31-389] Phase Retarget created 2 cells and removed 15 cells
+INFO: [Opt 31-1021] In phase Retarget, 45 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 BUFG optimization
+Phase 2 BUFG optimization | Checksum: 17e42d95d
+
+Time (s): cpu = 00:00:00.99 ; elapsed = 00:00:00.6 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3898 ; free virtual = 18880
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 3 Remap
+Phase 3 Remap | Checksum: 200d96daf
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.87 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3898 ; free virtual = 18880
+INFO: [Opt 31-389] Phase Remap created 91 cells and removed 195 cells
+INFO: [Opt 31-1021] In phase Remap, 16 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Post Processing Netlist
+Phase 4 Post Processing Netlist | Checksum: 1df442b92
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.91 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3904 ; free virtual = 18887
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 45 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+---------------------------------------------------------------------------------------------------------------------
+|  Phase                    |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+---------------------------------------------------------------------------------------------------------------------
+|  Retarget                 |               2  |              15  |                                             45  |
+|  BUFG optimization        |               0  |               0  |                                              0  |
+|  Remap                    |              91  |             195  |                                             16  |
+|  Post Processing Netlist  |               0  |               0  |                                             45  |
+---------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: efca9576
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.96 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3904 ; free virtual = 18887
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3904 ; free virtual = 18887
+Ending Netlist Obfuscation Task | Checksum: efca9576
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3904 ; free virtual = 18887
+INFO: [Common 17-83] Releasing license: Implementation
+63 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+power_opt_design completed successfully
+power_opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:13 . Memory (MB): peak = 3267.207 ; gain = 116.086 ; free physical = 3904 ; free virtual = 18887
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Command: report_power -file /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/opt_out/power.rpt
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+66 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+Command: report_drc -file /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/opt_out/drc.rpt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/opt_out/drc.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3267.207 ; gain = 0.000 ; free physical = 3772 ; free virtual = 18766
+INFO: [Common 17-1381] The checkpoint '/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/dcp/opt.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 28 11:34:51 2025...

@@ -1,0 +1,5 @@
+timestamp=[2025-02-28 11:37:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.024, duration_ms=24, data={}
+timestamp=[2025-02-28 11:38:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.025, duration_ms=25, data={}
+timestamp=[2025-02-28 11:38:07], mode=APP_CREATION, duration=0:00:04.827, duration_ms=4827, data={name=helloworld, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=pfm_baremetal, application_type=application}
+timestamp=[2025-02-28 11:38:13], mode=PLATFORM_GENERATION, duration=0:00:04.571, duration_ms=4571, data={name=pfm_baremetal}
+timestamp=[2025-02-28 11:38:17], mode=BUILD, duration=0:00:00.597, duration_ms=597, data={name=helloworld, configuration=Debug, clean_build=false}

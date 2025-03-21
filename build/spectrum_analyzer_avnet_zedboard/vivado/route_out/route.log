@@ -1,0 +1,259 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Feb 28 11:35:35 2025
+# Process ID: 111229
+# Current directory: /home/alisoukarieh/Documents/ProjetCodesign
+# Command line: vivado -mode batch -source script/vivado/route.tcl -nojournal -notrace /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/dcp/placement.dcp -log /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/route_out/route.log -tclargs /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado Default
+# Log file: /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/route_out/route.log
+# Journal file: 
+# Running On: 2a02-8440-b131-8ac0-27bd-72c1-17ee-1ed8.rev.sfr.net, OS: Linux, CPU Frequency: 1716.089 MHz, CPU Physical cores: 16, Host memory: 16124 MB
+#-----------------------------------------------------------
+open_checkpoint /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/dcp/placement.dcp
+Command: open_checkpoint /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/dcp/placement.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1479.859 ; gain = 0.000 ; free physical = 5018 ; free virtual = 20037
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1822.523 ; gain = 0.000 ; free physical = 4668 ; free virtual = 19687
+INFO: [Netlist 29-17] Analyzing 279 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00.86 ; elapsed = 00:00:00.88 . Memory (MB): peak = 2523.633 ; gain = 2.969 ; free physical = 4072 ; free virtual = 19092
+Restored from archive | CPU: 0.880000 secs | Memory: 12.701530 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.86 ; elapsed = 00:00:00.88 . Memory (MB): peak = 2523.633 ; gain = 2.969 ; free physical = 4072 ; free virtual = 19092
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2523.633 ; gain = 0.000 ; free physical = 4072 ; free virtual = 19092
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 177 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 163 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 12 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
+OpenCheckpoint Checksum | Checksum: 469645f3
+----- Checksum: PlaceDB: 3efa24ed ShapeSum: 079c2106 RouteDB: 00000000 
+open_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2523.633 ; gain = 1043.773 ; free physical = 4072 ; free virtual = 19092
+source script/vivado/route.tcl -notrace
+Command: route_design -directive Default
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'Default'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 3efa24ed ConstDB: 0 ShapeSum: 79c2106 RouteDB: 0
+Post Restoration Checksum: NetGraph: bfd1c11a NumContArr: 19166fee Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: d8e83108
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2724.086 ; gain = 70.984 ; free physical = 3949 ; free virtual = 18969
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: d8e83108
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2756.086 ; gain = 102.984 ; free physical = 3918 ; free virtual = 18938
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: d8e83108
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2756.086 ; gain = 102.984 ; free physical = 3918 ; free virtual = 18938
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 1468be223
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 2792.219 ; gain = 139.117 ; free physical = 3864 ; free virtual = 18885
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.502  | TNS=0.000  | WHS=-0.353 | THS=-273.975|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 11355
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 11355
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 15b427601
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3851 ; free virtual = 18872
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 15b427601
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3851 ; free virtual = 18872
+Phase 3 Initial Routing | Checksum: 1974f1bc3
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3846 ; free virtual = 18867
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 886
+ Number of Nodes with overlaps = 37
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.357  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1c40f33d9
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3843 ; free virtual = 18864
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.357  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 19324e413
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:18 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3843 ; free virtual = 18864
+Phase 4 Rip-up And Reroute | Checksum: 19324e413
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:18 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3843 ; free virtual = 18864
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 27635b58d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:18 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3845 ; free virtual = 18865
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.472  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 27635b58d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:18 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3845 ; free virtual = 18865
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 27635b58d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:18 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3845 ; free virtual = 18865
+Phase 5 Delay and Skew Optimization | Checksum: 27635b58d
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:18 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3845 ; free virtual = 18865
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1cb9b0b32
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3844 ; free virtual = 18864
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.472  | TNS=0.000  | WHS=0.025  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 23aaddd2b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3844 ; free virtual = 18864
+Phase 6 Post Hold Fix | Checksum: 23aaddd2b
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3844 ; free virtual = 18864
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.07171 %
+  Global Horizontal Routing Utilization  = 2.60869 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 215f4e83f
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3844 ; free virtual = 18864
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 215f4e83f
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:19 . Memory (MB): peak = 2803.398 ; gain = 150.297 ; free physical = 3844 ; free virtual = 18864
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 21a927584
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:19 . Memory (MB): peak = 2819.406 ; gain = 166.305 ; free physical = 3844 ; free virtual = 18864
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=2.472  | TNS=0.000  | WHS=0.025  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 21a927584
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 2819.406 ; gain = 166.305 ; free physical = 3843 ; free virtual = 18864
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 2819.406 ; gain = 166.305 ; free physical = 3887 ; free virtual = 18907
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+15 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:20 . Memory (MB): peak = 2819.406 ; gain = 295.773 ; free physical = 3887 ; free virtual = 18907
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.87 . Memory (MB): peak = 2819.406 ; gain = 0.000 ; free physical = 3886 ; free virtual = 18907
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Command: report_power -file /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/route_out/power.rpt
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+22 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+Command: report_drc -file /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/route_out/drc.rpt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/route_out/drc.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.91 . Memory (MB): peak = 3072.586 ; gain = 0.000 ; free physical = 3797 ; free virtual = 18846
+INFO: [Common 17-1381] The checkpoint '/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/dcp/route.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 28 11:36:19 2025...

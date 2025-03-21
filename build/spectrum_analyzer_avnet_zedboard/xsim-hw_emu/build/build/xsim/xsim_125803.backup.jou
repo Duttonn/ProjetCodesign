@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Feb 28 11:42:52 2025
+# Process ID: 125803
+# Current directory: /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/build/build/xsim
+# Command line: xsim -log /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/log/xsim.log -source {xsim.dir/spectrum_analyzer_top/xsim_script.tcl}
+# Log file: /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/log/xsim.log
+# Journal file: /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/build/build/xsim/xsim.jou
+# Running On: 2a02-8440-b131-8ac0-27bd-72c1-17ee-1ed8.rev.sfr.net, OS: Linux, CPU Frequency: 3383.279 MHz, CPU Physical cores: 16, Host memory: 16124 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/spectrum_analyzer_top/xsim_script.tcl

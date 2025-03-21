@@ -1,0 +1,6 @@
+cp /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/build/pkg_led_blink.vhd /home/alisoukarieh/Documents/ProjetCodesign/rtl/led_blink/synth/pkg_led_blink.vhd
+cp /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/build/led_blink.vhd /home/alisoukarieh/Documents/ProjetCodesign/rtl/led_blink/synth/led_blink.vhd
+cp /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/build/simple_axis_adder.vhd /home/alisoukarieh/Documents/ProjetCodesign/rtl/simple_axis_adder/synth/simple_axis_adder.vhd
+cp /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/build/simple_axis_adder_pkg.vhd /home/alisoukarieh/Documents/ProjetCodesign/rtl/simple_axis_adder/synth/simple_axis_adder_pkg.vhd
+cp /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/build/design_1.bd /home/alisoukarieh/Documents/ProjetCodesign/project/spectrum_analyzer/avnet_zedboard/synth/design_1.bd
+cp /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/vivado/build/spectrum_analyzer_top.vhd /home/alisoukarieh/Documents/ProjetCodesign/project/spectrum_analyzer/avnet_zedboard/synth/spectrum_analyzer_top.vhd

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/build/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_proc_sys_reset_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/build/ip/design_1_axi_dma_0_0/sim/design_1_axi_dma_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_dma_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/build/ip/design_1_axi_smc_0/bd_0/ip/ip_1/sim/bd_afc3_psr_aclk_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_afc3_psr_aclk_0'

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Feb 28 08:39:18 2025
+# Process ID: 18465
+# Current directory: /home/alisoukarieh/Documents/ProjetCodesign/doc
+# Command line: vivado -mode tcl
+# Log file: /home/alisoukarieh/Documents/ProjetCodesign/doc/vivado.log
+# Journal file: /home/alisoukarieh/Documents/ProjetCodesign/doc/vivado.jou
+# Running On: 2a02-8440-b150-3654-6ea4-86f3-d425-00c3.rev.sfr.net, OS: Linux, CPU Frequency: 3715.028 MHz, CPU Physical cores: 16, Host memory: 16124 MB
+#-----------------------------------------------------------
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
+xhub::refresh_catalog: Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 1465.051 ; gain = 0.035 ; free physical = 4093 ; free virtual = 17955
+xhub::install [xhub::get_xitems *zedboard*]
+INFO: [xhubtcl 76-32] Installing object 'avnet.com:xilinx_board_store:zedboard:1.4' ...
+INFO: [Common 17-1570] Installing object avnet.com:xilinx_board_store:zedboard:1.4 from remote host https://github.com/Xilinx/XilinxBoardStore.git
+INFO: [Common 17-1573] Object avnet.com:xilinx_board_store:zedboard:1.4 has been installed successfully.
+INFO: [xhubtcl 76-32] Installing object 'digilentinc.com:xilinx_board_store:zedboard:1.0' ...
+INFO: [Common 17-1570] Installing object digilentinc.com:xilinx_board_store:zedboard:1.0 from remote host https://github.com/Xilinx/XilinxBoardStore.git
+INFO: [Common 17-1573] Object digilentinc.com:xilinx_board_store:zedboard:1.0 has been installed successfully.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 28 08:40:29 2025...

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alisoukarieh/Documents/ProjetCodesign/rtl/led_blink/synth/pkg_led_blink.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alisoukarieh/Documents/ProjetCodesign/rtl/led_blink/synth/led_blink.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'led_blink'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alisoukarieh/Documents/ProjetCodesign/rtl/simple_axis_adder/synth/simple_axis_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'simple_axis_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alisoukarieh/Documents/ProjetCodesign/rtl/simple_axis_adder/synth/simple_axis_adder_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/alisoukarieh/Documents/ProjetCodesign/project/spectrum_analyzer/avnet_zedboard/synth/spectrum_analyzer_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'spectrum_analyzer_top'

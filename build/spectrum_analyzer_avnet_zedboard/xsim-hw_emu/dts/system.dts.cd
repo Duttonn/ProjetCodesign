@@ -1,0 +1,8 @@
+system.o: \
+ /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/dts/system.dts \
+ /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/dts/system-top.dts \
+ /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/dts/zynq-7000.dtsi \
+ /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/dts/zedboard.dtsi \
+ /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/dts/pl.dtsi \
+ /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/dts/pcw.dtsi \
+ /home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsim-hw_emu/dts/zynq-pl-remoteport.dtsi

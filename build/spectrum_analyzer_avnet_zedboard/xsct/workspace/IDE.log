@@ -1,0 +1,20 @@
+11:37:41 DEBUG : Logs will be stored at '/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsct/workspace/IDE.log'.
+11:37:41 INFO  : Registering command handlers for Vitis TCF services
+11:37:41 INFO  : Platform repository initialization has completed.
+11:37:42 INFO  : Result from executing command 'getProjects': pfm_baremetal
+11:37:42 INFO  : Result from executing command 'getPlatforms': 
+11:37:47 INFO  : Result from executing command 'getProjects': pfm_baremetal
+11:37:47 INFO  : Result from executing command 'getPlatforms': pfm_baremetal|/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsct/workspace/pfm_baremetal/export/pfm_baremetal/pfm_baremetal.xpfm
+11:37:59 DEBUG : Logs will be stored at '/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsct/workspace/IDE.log'.
+11:38:00 INFO  : Registering command handlers for Vitis TCF services
+11:38:00 INFO  : Platform repository initialization has completed.
+11:38:00 INFO  : Result from executing command 'reportPlatform': {pfm_baremetal={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+11:38:00 INFO  : Result from executing command 'reportPlatform': {pfm_baremetal={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+11:38:00 INFO  : Result from executing command 'reportPlatform': {pfm_baremetal={standalone_domain={Os=standalone, DomainName=standalone_domain, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+11:38:03 INFO  : plnx-install-location is set to ''
+11:38:04 INFO  : Successfully done query RDI_DATADIR 
+11:38:07 INFO  : Result from executing command 'getProjects': helloworld
+11:38:07 INFO  : Result from executing command 'reportApp': {fsblpath=/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsct/workspace/pfm_baremetal/export/pfm_baremetal/sw/pfm_baremetal/boot/fsbl.elf, Platform Path=/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsct/workspace/pfm_baremetal/export/pfm_baremetal/pfm_baremetal.xpfm, Domain=standalone_domain, platform=pfm_baremetal}
+11:38:09 INFO  : Result from executing command 'getProjects': helloworld
+11:38:09 INFO  : Result from executing command 'reportApp': {fsblpath=/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsct/workspace/pfm_baremetal/export/pfm_baremetal/sw/pfm_baremetal/boot/fsbl.elf, Platform Path=/home/alisoukarieh/Documents/ProjetCodesign/build/spectrum_analyzer_avnet_zedboard/xsct/workspace/pfm_baremetal/export/pfm_baremetal/pfm_baremetal.xpfm, Domain=standalone_domain, platform=pfm_baremetal}
+11:38:13 INFO  : Checking for BSP changes to sync application flags for project 'helloworld'...

@@ -1,0 +1,5 @@
+Multi-threading is on. Using 14 slave threads.
+Linking with command:
+/proj/xbuilds/HEAD_daily_latest/installs/lin64/Vivado/HEAD/tps/lnx64/gcc-6.2.0/bin/g++ -Wa,-W  -O -fPIC  -m64  -shared  -o "libdpi.so" xsim.dir/xil_defaultlib/xsc/*.o /tools/Xilinx/Vivado/2022.2/data/xsim/ip/processing_system7_v5_5_6/xsc/*.o    -L/tools/Xilinx/Vivado/2022.2/data/xsim/ip/xtlm -lxtlm -L/tools/Xilinx/Vivado/2022.2/data/xsim/ip/remote_port_sc_v4 -lremote_port_sc_v4 -L/tools/Xilinx/Vivado/2022.2/data/xsim/ip/remote_port_c_v4 -lremote_port_c_v4 -L/tools/Xilinx/Vivado/2022.2/data/xsim/ip/common_cpp_v1_0 -lcommon_cpp_v1_0  -L/tools/Xilinx/Vivado/2022.2/lib/lnx64.o -lrdi_simulator_kernel  -lrdi_xsim_systemc -std=c++11 -L/tools/Xilinx/Vivado/2022.2/lib/lnx64.o/Default  -B/proj/xbuilds/HEAD_daily_latest/installs/lin64/Vivado/HEAD/tps/lnx64/gcc-6.2.0/bin/../../binutils-2.37/bin/ 
+
+Done linking: "libdpi.so"
